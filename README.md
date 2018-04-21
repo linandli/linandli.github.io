@@ -1,18 +1,26 @@
-> # This Project Is Deprecated
+Fresh is a free blog template for Jekyll
+=============================
 
-> More details and new features: https://github.com/JimmyLv/jimmylv.github.io
+![](assets/img/fresh.jpg)
 
+# Demo
 
-## 使用Rakefile自动生成文章格式
+![GIF](assets/img/fresh.gif)
 
-```shell
-rake post title="A Title" [category="category"] [tags=[tag1,tag2]] [description="description"]
-```
+View this jekyll theme in action [here](http://artemsheludko.pw/fresh/)
 
-ps: this will reate category_imgs and post_imgs directory for this post article.
+Integrations
+  - [Google Fonts](https://fonts.google.com/)
+  - [Disqus](https://disqus.com/)
+  - [Font Awesome](http://fontawesome.io/)
+  - Social media links
 
-## 修改样式
+# How to Use
 
-button属性修改在bootstrap.css里面
+  For those unfamiliar with how Jekyll works, check out [jekyllrb.com](https://jekyllrb.com/) for all the details,
+  or read up on just the basics of [front matter](https://jekyllrb.com/docs/frontmatter/), [writing posts](https://jekyllrb.com/docs/posts/),
+  and [creating pages](https://jekyllrb.com/docs/pages/).
 
-button显示修改在-include/footer.html和base.js里面
+## License
+
+GNU General Public License v3.0

@@ -1,54 +1,36 @@
-permalink: /:year/:month/:day/:title.html
-paginate: 10
-markdown: redcarpet
+# Profile information
+name: Fresh
+title: Fresh - Free Jekyll Theme
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+permalink: ':title/'
+baseurl: "/fresh" # the subpath of your site, e.g. /blog
+url: "artemsheludko.pw" # the base hostname & protocol for your site, e.g. http://example.com
 
-# 作者信息
-author: 
-  name: 吕立青
-  email: lv460051518@gmail.com
-  link: http://www.jimmylv.info
-  weibo: http://weibo.com/liqing215
-  github: http://github.com/JimmyLv
-  zhihu: http://www.zhihu.com/people/lu-li-qing-90
+# Social
+facebook: #Add your Facebook
+twitter: #Add your Twitter
+google-plus: #Add your Google+
+github: #Add your Github
 
-# 站点信息
-title: 吕立青的博客
-description: My personal note-blog.
-url: http://jimmylv.info
-rss_url: /pages/atom.xml
+# Contact form
+email: #your-email@domain.com
 
-# gavatar头像及Favicon
-gavatar: /public/img/gavatar.jpg
-favicon: /public/img/favicon.ico
+# Comments
+discus-identifier: # Add your Disqus identifier
 
-# google analytics 设置
-ga:
-  id: UA-55089304-1 
-  url: http://blog.jimmylv.info
+# Paginate
+paginate: 5
+paginate_path: /page:num/
 
-# disqus 设置
-disqus:
-  shortname: gotoshare
-
-# 主题设置，自动激活某个标签
-active: 编程
-
-# 首页除了最新文章外显示分类
-cates: 
-  - React
-  - 摄影
-
-# 中文本地化
-locals:
-  tags: 标签
-  about: 关于
-  newest: 最新文章
-  archive: 归档
-
+# Build settings
+markdown: kramdown
 gems:
-  - jekyll-sitemap
+  - jekyll-feed
   - jekyll-paginate
-
-markdown: redcarpet
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "strikethrough", "superscript", "with_toc_data"]
+exclude:
+  - Gemfile
+  - Gemfile.lock
+include: [_pages]
