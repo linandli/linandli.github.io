@@ -2,7 +2,7 @@
 layout:     post
 title:      "git status对应中文名称"
 subtitle:   "git status对应中文名称"
-date:       2018-04-21 
+date:       2016-05-04 
 author:     "Carlos"
 header-img: "img/post-bg-2015.jpg"
 catalog: true

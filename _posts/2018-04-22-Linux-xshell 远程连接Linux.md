@@ -2,7 +2,7 @@
 layout:     post
 title:      "xshell 远程连接Linux"
 subtitle:   "xshell 远程连接Linux"
-date:       2018-04-21 
+date:       2016-08-09 
 author:     "Carlos"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
