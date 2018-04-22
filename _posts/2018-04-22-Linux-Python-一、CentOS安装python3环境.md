@@ -3,7 +3,7 @@ layout:     post
 title:      "一、CentOS安装python3环境"
 subtitle:   "CentOS安装python3环境"
 date:       2018-04-22 
-author:     "Carlos"
+author:     "夕阳"
 header-img: "img/post-bg-unix-linux.jpg"
 catalog: true
 tags:
