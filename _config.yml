@@ -1,10 +1,10 @@
 # Site settings
 title: Carlos Blog
-SEOTitle: 夕阳的博客 | Carlos Blog
+SEOTitle: Carlos Blog
 header-img: img/home-bg.jpg
 email: chenglin19@hotmail.com
-description: "关于python与爬虫、黑客与数据 | 夕阳，Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @夕阳 的个人博客，与你一起发现更大的世界。"
-keyword: "夕阳, Carlos夕阳, Carlos, 鬼栈, Carlos, @Carlos, 夕阳的博客, Carlos Blog, 博客, 个人网站, 互联网, Web, JavaScript, 爬虫, 数据"
+description: "关于python与爬虫、黑客与数据 | Carlos，Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @Carlos 的个人博客，与你一起发现更大的世界。"
+keyword: "Carlos, Geek, 鬼栈, @Carlos, Carlos的博客, Carlos Blog, 博客, 个人网站, 互联网, Web, JavaScript, 爬虫, 数据"
 url: "https://linandli.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
