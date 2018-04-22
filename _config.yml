@@ -48,7 +48,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: Carlos
+disqus_username: false
 
 # Netease setttings
 netease_comment: false
@@ -90,8 +90,8 @@ friends: [
     #     title: "Su",
     #     href: "http://su.gallery/"
     # },{
-        title: "乱序",
-        href: "http://mida.re/"
+        title: "IntPrt",
+        href: "https://github.com/lixiaoyan"
     },{
         title: "前端外刊评论",
         href: "http://qianduan.guru/"
