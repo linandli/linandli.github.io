@@ -3,7 +3,7 @@ layout:     post
 title:      "一、CentOS7下安装MongoDB"
 subtitle:   "CentOS7下安装MongoDB"
 date:       2018-04-21 
-author:     "夕阳"
+author:     "Carlos"
 header-img: "img/post-bg-unix-linux.jpg"
 catalog: true
 tags:

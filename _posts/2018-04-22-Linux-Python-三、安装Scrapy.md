@@ -3,7 +3,7 @@ layout:     post
 title:      "三、安装Scrapy"
 subtitle:   "安装Scrapy"
 date:       2018-04-22 
-author:     "夕阳"
+author:     "Carlos"
 header-img: "img/post-bg-unix-linux.jpg"
 catalog: true
 tags:

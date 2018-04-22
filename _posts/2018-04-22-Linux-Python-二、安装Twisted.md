@@ -3,7 +3,7 @@ layout:     post
 title:      "二、安装Twisted"
 subtitle:   "安装Twisted"
 date:       2018-04-22 
-author:     "夕阳"
+author:     "Carlos"
 header-img: "img/post-bg-unix-linux.jpg"
 catalog: true
 tags:
