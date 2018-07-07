@@ -53,6 +53,36 @@ zipimport.ZipImportError: can't decompress data; zlib not available
 yum -y install zlib*
 ```
 
+最近遇到一个问题：
+```
+Traceback (most recent call last):
+  File "/home/carlos/Python-3.7.0/Lib/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/carlos/Python-3.7.0/Lib/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/carlos/Python-3.7.0/Lib/ensurepip/__main__.py", line 5, in <module>
+    sys.exit(ensurepip._main())
+  File "/home/carlos/Python-3.7.0/Lib/ensurepip/__init__.py", line 204, in _main
+    default_pip=args.default_pip,
+  File "/home/carlos/Python-3.7.0/Lib/ensurepip/__init__.py", line 117, in _bootstrap
+    return _run_pip(args + [p[0] for p in _PROJECTS], additional_paths)
+  File "/home/carlos/Python-3.7.0/Lib/ensurepip/__init__.py", line 27, in _run_pip
+    import pip._internal
+  File "/tmp/tmpgcm2i4lh/pip-10.0.1-py2.py3-none-any.whl/pip/_internal/__init__.py", line 42, in <module>
+  File "/tmp/tmpgcm2i4lh/pip-10.0.1-py2.py3-none-any.whl/pip/_internal/cmdoptions.py", line 16, in <module>
+  File "/tmp/tmpgcm2i4lh/pip-10.0.1-py2.py3-none-any.whl/pip/_internal/index.py", line 25, in <module>
+  File "/tmp/tmpgcm2i4lh/pip-10.0.1-py2.py3-none-any.whl/pip/_internal/download.py", line 39, in <module>
+  File "/tmp/tmpgcm2i4lh/pip-10.0.1-py2.py3-none-any.whl/pip/_internal/utils/glibc.py", line 3, in <module>
+  File "/home/carlos/Python-3.7.0/Lib/ctypes/__init__.py", line 7, in <module>
+    from _ctypes import Union, Structure, Array
+ModuleNotFoundError: No module named '_ctypes'
+```
+
+## 最后发现：3.7版本需要一个新的包libffi-devel，安装此包之后再次进行编译安装即可
+```
+yum install libffi-devel -y
+```
+
 
 
 六、创建软链接
