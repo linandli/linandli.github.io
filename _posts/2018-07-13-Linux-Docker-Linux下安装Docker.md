@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "关系型数据库建表原则"
-subtitle:   "关系型数据库建表原则"
+title:      "一、Centos7安装最新Docker方法"
+subtitle:   "Centos7安装最新Docker方法"
 date:       2018-07-13 
 author:     "Carlos"
 header-img: "img/post-bg-2015.jpg"
