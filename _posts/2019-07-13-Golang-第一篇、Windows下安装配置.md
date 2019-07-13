@@ -44,6 +44,7 @@ C:\Go\bin
 ```
 
 > 最后在环境变量Path中添加：%GOBIN% 即可
+
 ---
 
 ## 三、测试
@@ -83,6 +84,7 @@ set CGO_LDFLAGS=-g -O2
 set PKG_CONFIG=pkg-config
 set GOGCCFLAGS=-m64 -mthreads -fno-caret-diagnostics -Qunused-arguments -fmessage-length=0 -fdebug-prefix-map=C:\Users\cheng\AppData\Local\Temp\go-build469888466=/tmp/go-build -gno-record-gcc-switches
 ```
+
 ---
 
 ## 四、写个测试代码
@@ -106,6 +108,7 @@ go run test.go
 ```
 Hello World!
 ```
+
 ---
 
 # Ok, 大功告成！
